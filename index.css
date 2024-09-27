@@ -1,0 +1,217 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+    background-color: #fdf0d5;
+    font-family: Satisfy;
+}
+
+
+
+
+.intro-div{
+
+    margin-bottom: 40px;
+    padding-top: 320px;
+    background-image: url(./images/beach2.jpeg);
+    background-size: cover;
+    background-clip: border-box;    
+    height: 500px;
+    background-color: white;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    /* border: 2px solid rebeccapurple; */
+   
+    
+}
+
+.intro-div h1,h3{
+    font-family: "Libre Baskerville", serif;
+    color: #fdf0d5;
+    font-size: 40px;
+    text-shadow: 0px 0px 4px #003049;
+}
+
+.intro-div h3{
+    font-size: 90px;
+}
+
+.places-to-visit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.places-to-visit h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.places-content{
+    width: 75%;
+    padding-left: 150px;
+    padding-right: 150px;
+
+    /* border: 4px solid green; */
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around ;
+    margin-bottom: 50px;
+
+
+}
+
+.places-content h2{
+    font-family: Prompt;
+    text-decoration: underline;
+
+}
+
+.places-content p{
+    font-family: "Playwrite DE Grund"
+}
+
+
+.places-img{
+    width: 450px;
+    border: 4px solid #003049;
+    border-radius: 10px;
+
+}
+
+.hidden{
+
+        opacity: 0;
+        transition: opacity 2s ease-in-out
+
+        
+}
+
+#beach-content:hover #beach-description{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out
+
+}
+
+
+#church-content:hover #church-description{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out
+
+
+}
+#auroville-content:hover #auroville-description{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out
+
+
+}
+
+
+.activities-to-do{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.activities-to-do h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.activities-to-do-cards{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+.activities-to-do-cards h2{
+    font-family:prompt ;
+}
+
+.activities-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;;
+}
+
+.activities-to-do-content{
+    border: 1px solid #fdf0d5;
+    width: 400px;
+    padding: 0px 15px;
+    text-align: center;
+    background-color: #c1121f;
+    color: #fdf0d5;
+    padding: 30px 15px;
+    font-family: "Playwrite DE Grund"
+    
+
+
+}
+
+.profile-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius:2px;
+    object-fit:cover;
+
+}
+
+.profile-card{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding: 8px;
+
+    /* border: 2px solid blueviolet; */
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    padding: 20px 0;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    margin-top:100px;
+
+    border: 4px solid #c1121f;
+    
+
+}
+
+.profile-card h5{
+    font-size: 40px;
+}
+
+.profile-card p{
+    font-family: "Libre Baskerville";
+    font-weight: bolder;
+    /* border: 3px solid green; */
+    width: 200px;
+    text-shadow: 0px 0px 1px #fdf0d5;
+    color: black;
+    line-height: 30px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+}
